@@ -1,0 +1,14 @@
+.container-narrow {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron .btn {
+    font-size: 20px;
+    padding: 14px 24px;
+}
+
