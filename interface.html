@@ -33,7 +33,7 @@ for (var i = 0; i < locations.length; i++)
         zIndex: place[3]
     });
 google.maps.event.addListener(marker, 'click', function() {
-window.location.href = marker.url;
+window.location.href = this.url;
 });
     } 
 }
